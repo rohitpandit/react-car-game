@@ -1,11 +1,12 @@
 import React from 'react';
 import './Board.css';
+import Lines from './Lines.js';
 
 class Board extends React.Component{
     render(){
         return (
             <div className="board">
-                <h2>liness</h2>
+                <Lines />
             </div>
         )
     }
