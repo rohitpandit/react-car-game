@@ -1,9 +1,15 @@
-
+import Board from './Board';
+import './App.css';
+import Grass from './Grass.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Car Game</h1>
+      <Grass />
+      <div>
+        <Board />
+      </div>
+      <Grass />
     </div>
   );
 }

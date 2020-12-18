@@ -1,0 +1,123 @@
+@keyframes move1{
+    0% { left:20px; top:0px }
+    100% {left: 20px; top:600px}
+}
+.grass1{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+/* 2nd grass */
+@keyframes move2{
+    0% { left:200px; top:0px }
+    100% {left: 200px; top:600px}
+}
+
+.grass2{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 950ms;
+}
+
+/* 3rd grass */
+@keyframes move3{
+    0% { left:330px; top:0px }
+    100% {left: 330px; top:600px}
+}
+
+.grass3{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 1750ms;
+}
+
+/* 4th grass */
+@keyframes move4{
+    0% { right:20px; top:0px }
+    100% {right: 20px; top:600px}
+}
+
+.grass4{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 1200ms;
+}
+
+/* 5th grass */
+@keyframes move5{
+    0% { right:120px; top:0px }
+    100% {right: 120px; top:600px}
+}
+
+.grass5{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 506ms;
+}
+
+/* 6th grass */
+@keyframes move6{
+    0% { right:220px; top:0px }
+    100% {right: 220px; top:600px}
+}
+
+.grass6{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 1150ms;
+}
+
+/* 7th grass */
+@keyframes move7{
+    0% { right:320px; top:0px }
+    100% {right: 320px; top:600px}
+}
+
+.grass7{
+    border-top: 25px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    animation-name: move7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
+}

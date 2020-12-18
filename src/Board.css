@@ -1,0 +1,10 @@
+.board{
+    background-color: #444444;
+    width: 35rem;
+    height: 100vh;
+    display: flex;
+    align-self:center;
+    justify-self: center;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
