@@ -1,11 +1,14 @@
 .board{
     background-color: #444444;
-    width: 35rem;
+    width: 30rem;
     height: 100vh;
     display: flex;
+    flex-direction: row;
     align-self:center;
     justify-self: center;
     border-left: 15px solid white;
     border-right: 15px solid white;
     position: relative;
+    margin:auto;
+    z-index: 1;
 }
