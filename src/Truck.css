@@ -1,0 +1,17 @@
+@keyframes move{
+    0% { top:-100px }
+    100% { top:570px}
+}
+
+.truck{
+    position: absolute;
+    width: 5rem;
+    height: 6rem;
+    left:0rem;
+    background-color: blue;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    overflow: hidden;
+}
