@@ -1,11 +1,9 @@
 .car{
     position: absolute;
-    bottom:40px;
+    bottom:1rem;
+    width: 5rem;
+    height: 6rem;
+    overflow: none;
     left:0;
-}
-
-img{
-    height: 4rem;
-    transform: rotate(270deg);
-    width: 6rem;
+    background-color: red;
 }
