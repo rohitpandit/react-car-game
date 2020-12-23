@@ -7,4 +7,5 @@
     justify-self: center;
     border-left: 15px solid white;
     border-right: 15px solid white;
+    position: relative;
 }
